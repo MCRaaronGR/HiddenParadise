@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+.Contenedor2 {
+    background-color: #f9f9f9;
+}
+/*Primer Panel*/
+.PrimerPanel2{
+    width: 100%;
+    background-image: url(/img/ImgPortada.jpg);
+    width: 100%;
+    height: 585px;
+    background-size: 100% 585px; /* Escala la imagen para que tenga el ancho del 100% y un alto de 600px */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.PrimerPanel2 h1{
+    font-family: "Flamenco", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7rem;
+}
+.SegundoPanel2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+}
+#Tableroinfo{
+    position: absolute;
+    width: 70%;
+    height: 740px;
+    top: 620px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 1rem 5rem 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+#Tableroinfo h1{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+.Grid-Informacion{
+    display: grid;
+    grid-template-columns: auto auto 30%;
+    grid-template-rows: auto auto auto;
+}
+.Grid-Informacion div{
+    padding: 1rem;
+}
+.Msj{
+    grid-area: 1/1/2/3;
+}
+.Imgs{
+    border-left: 1px black solid;
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.Imgs div img{
+    width: 50%;
+    height: auto;
+}
+.Imgs div p{
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#MsjBienvenida{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: gray;
+    font-size: 1.8rem;
+}
+.Carrusel{
+    grid-area: 2/1/3/4;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+/* Contenedor interno de los elementos del carrusel */
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 300%; /* Tres secciones visibles en total */
+}
+
+.carousel-item {
+    flex: 100%; /* Cada sección ocupa el ancho completo del carrusel */
+    display: flex; /* Asegura que las imágenes estén en fila */
+    justify-content: space-around; /* Espaciado uniforme entre imágenes */
+}
+
+.carousel-item img {
+    width: 30%; /* Cada imagen ocupa aproximadamente un tercio del contenedor */
+    height: auto;
+}
+
+/* Flechas de navegación */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+#prevBtn {
+    left: 10px;
+    width: 40px;
+    font-size: 1.9rem;
+}
+#nextBtn {
+    right: 10px;
+    width: 40px;
+    font-size: 1.9rem;
+}
+
+/*Tercer Panel*/
+.TercerPanel2{
+    width: 100%;
+    height: auto;
+    padding: 0% 8% 0% 8%;
+    display: flex;
+}
+.TercerPanel2 div{
+    padding: 1rem;
+}
+.infoCreacion{
+    width: 40%;
+}
+.infoCreacion h1{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+}
+.infoCreacion p{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+.FormularioCreacion{
+    width: 60%;
+    height: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto auto auto auto;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 100%;
+}
+#TitleFormCreate{
+    grid-area: 1/1/2/3;
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+#DineroI{
+    grid-area: 2/1/3/2;
+    font-family: "Flamenco", serif;
+}
+#Passegers{
+    grid-area: 2/2/3/3;
+    font-family: "Flamenco", serif;
+}
+#PlacesV{
+    grid-area: 3/1/4/2;
+    font-family: "Flamenco", serif;
+}
+#DateV{
+    grid-area: 3/2/4/3;
+    font-family: "Flamenco", serif;
+}
+.BtnCreate{
+    grid-area: 4/1/5/3;
+    font-family: "Flamenco", serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    width: 30%;
+    height: 40px;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    width: 30%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+/*Cuarto Panel*/
+.CuartoPanel2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0% 8% 0% 8%;
+}
+.infoRecomendaciones h1{
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+}
+.infoRecomendaciones p{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.preferences {
+    display: flex;
+    padding: 2rem 6rem 2rem 6rem;
+}
+.available{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.available h2{
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+#available-list{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+.selected{
+    width: 50%;
+}
+.selected h2{
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+.selected-list{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li:hover {
+    background-color: #bbb;
+    transition-duration: 0.2s;
+    scale: 105%;
+}
+#BtnRecomendaciones{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.destination {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-top: 1px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-left: 0px solid transparent;
+    }
+    25% {
+        border-top: 2px solid #EB1601;
+        border-right: 1px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-left: 0px solid transparent;
+    }
+    50% {
+        border-top: 3px solid #EB1601;
+        border-right: 2px solid #E6356C;
+        border-bottom: 1px solid transparent;
+        border-left: 0px solid transparent;
+    }
+    75% {
+        border-top: 4px solid #EB1601;
+        border-right: 3px solid #E6356C;
+        border-bottom: 2px solid #E64CD8;
+        border-left: 1px solid transparent;
+    }
+    100% {
+        border-top: 5px solid #EB1601;
+        border-right: 4px solid #E6356C;
+        border-bottom: 3px solid #E64CD8;
+        border-left: 4px solid #A500E6;
+    }
+}
+
+.destinosConAnimacion {
+    animation: borderAnimation 5s linear infinite; 
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+.Contenedor{
+    background-color: black;
+}
+.Encabezado{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-content: space-between;
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    height: auto;
+}
+.Encabezado div{
+    margin: 1px;
+}
+.Encabezado img{
+    width: 20rem;
+    height: 8rem;
+}
+.BienvenidaP{
+    display: flex;
+    align-items: center;
+}
+#Titulo{
+    padding-left: 1rem;
+    color: black;
+}
+.InformacionP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.InformacionP div{
+    padding: 1rem;
+}
+.CuentasP{
+    display: flex;
+    flex-direction: column;
+}

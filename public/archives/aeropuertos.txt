@@ -1,0 +1,576 @@
+Aeropuerto: Anaa
+Ciudad: AAA
+País: French Polynesia
+Código IATA (País): PF
+Código IATA (Aeropuerto): AAA
+
+Aeropuerto: Arrabury
+Ciudad: AAB
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): AAB
+
+Aeropuerto: El Arish International Airport
+Ciudad: AAC
+País: Egypt
+Código IATA (País): EG
+Código IATA (Aeropuerto): AAC
+
+Aeropuerto: Apalachicola Regional
+Ciudad: AAF
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AAF
+
+Aeropuerto: Arapoti
+Ciudad: AAG
+País: Brazil
+Código IATA (País): BR
+Código IATA (Aeropuerto): AAG
+
+Aeropuerto: Aachen/Merzbruck
+Ciudad: AAH
+País: Germany
+Código IATA (País): DE
+Código IATA (Aeropuerto): AAH
+
+Aeropuerto: Arraias
+Ciudad: AAI
+País: Brazil
+Código IATA (País): BR
+Código IATA (Aeropuerto): AAI
+
+Aeropuerto: Aranuka
+Ciudad: AAK
+País: Kiribati
+Código IATA (País): KI
+Código IATA (Aeropuerto): AAK
+
+Aeropuerto: Aalborg
+Ciudad: AAL
+País: Denmark
+Código IATA (País): DK
+Código IATA (Aeropuerto): AAL
+
+Aeropuerto: Mala Mala
+Ciudad: AAM
+País: South Africa
+Código IATA (País): ZA
+Código IATA (Aeropuerto): AAM
+
+Aeropuerto: Al Ain
+Ciudad: AAN
+País: United Arab Emirates
+Código IATA (País): AE
+Código IATA (Aeropuerto): AAN
+
+Aeropuerto: Anapa
+Ciudad: AAQ
+País: Russia
+Código IATA (País): RU
+Código IATA (Aeropuerto): AAQ
+
+Aeropuerto: Aarhus Airport
+Ciudad: AAR
+País: Denmark
+Código IATA (País): DK
+Código IATA (Aeropuerto): AAR
+
+Aeropuerto: Altay
+Ciudad: AAT
+País: China
+Código IATA (País): CN
+Código IATA (Aeropuerto): AAT
+
+Aeropuerto: Araxa
+Ciudad: AAX
+País: Brazil
+Código IATA (País): BR
+Código IATA (Aeropuerto): AAX
+
+Aeropuerto: Al Ghaydah
+Ciudad: AAY
+País: Yemen
+Código IATA (País): YE
+Código IATA (Aeropuerto): AAY
+
+Aeropuerto: Quetzaltenango
+Ciudad: AAZ
+País: Guatemala
+Código IATA (País): GT
+Código IATA (Aeropuerto): AAZ
+
+Aeropuerto: Abakan
+Ciudad: ABA
+País: Russia
+Código IATA (País): RU
+Código IATA (Aeropuerto): ABA
+
+Aeropuerto: Asaba International
+Ciudad: ABB
+País: Nigeria
+Código IATA (País): NG
+Código IATA (Aeropuerto): ABB
+
+Aeropuerto: Los Llanos
+Ciudad: ABC
+País: Spain
+Código IATA (País): ES
+Código IATA (Aeropuerto): ABC
+
+Aeropuerto: Abadan
+Ciudad: ABD
+País: Iran
+Código IATA (País): IR
+Código IATA (Aeropuerto): ABD
+
+Aeropuerto: Lehigh Valley International
+Ciudad: ABE
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABE
+
+Aeropuerto: Alpha
+Ciudad: ABH
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): ABH
+
+Aeropuerto: Municipal
+Ciudad: ABI
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABI
+
+Aeropuerto: Kabri Dar
+Ciudad: ABK
+País: Ethiopia
+Código IATA (País): ET
+Código IATA (Aeropuerto): ABK
+
+Aeropuerto: Ambler
+Ciudad: ABL
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABL
+
+Aeropuerto: Bamaga Injinoo
+Ciudad: ABM
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): ABM
+
+Aeropuerto: Albuquerque International
+Ciudad: ABQ
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABQ
+
+Aeropuerto: Municipal
+Ciudad: ABR
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABR
+
+Aeropuerto: Abu Simbel
+Ciudad: ABS
+País: Egypt
+Código IATA (País): EG
+Código IATA (Aeropuerto): ABS
+
+Aeropuerto: Al-Aqiq
+Ciudad: ABT
+País: Saudi Arabia
+Código IATA (País): SA
+Código IATA (Aeropuerto): ABT
+
+Aeropuerto: Atambua
+Ciudad: ABU
+País: Indonesia
+Código IATA (País): ID
+Código IATA (Aeropuerto): ABU
+
+Aeropuerto: Nnamdi Azikiwe International Airport
+Ciudad: ABV
+País: Nigeria
+Código IATA (País): NG
+Código IATA (Aeropuerto): ABV
+
+Aeropuerto: Albury
+Ciudad: ABX
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): ABX
+
+Aeropuerto: Dougherty County
+Ciudad: ABY
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ABY
+
+Aeropuerto: Dyce
+Ciudad: ABZ
+País: United Kingdom
+Código IATA (País): GB
+Código IATA (Aeropuerto): ABZ
+
+Aeropuerto: General Juan N. Alvarez International
+Ciudad: ACA
+País: Mexico
+Código IATA (País): MX
+Código IATA (Aeropuerto): ACA
+
+Aeropuerto: Antrim County
+Ciudad: ACB
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ACB
+
+Aeropuerto: Kotoka
+Ciudad: ACC
+País: Ghana
+Código IATA (País): GH
+Código IATA (Aeropuerto): ACC
+
+Aeropuerto: Acandi
+Ciudad: ACD
+País: Colombia
+Código IATA (País): CO
+Código IATA (Aeropuerto): ACD
+
+Aeropuerto: Lanzarote
+Ciudad: ACE
+País: Spain
+Código IATA (País): ES
+Código IATA (Aeropuerto): ACE
+
+Aeropuerto: Altenrhein
+Ciudad: ACH
+País: Switzerland
+Código IATA (País): CH
+Código IATA (Aeropuerto): ACH
+
+Aeropuerto: The Blaye
+Ciudad: ACI
+País: Guernsey
+Código IATA (País): GG
+Código IATA (Aeropuerto): ACI
+
+Aeropuerto: Anuradhapura
+Ciudad: ACJ
+País: Sri Lanka
+Código IATA (País): LK
+Código IATA (Aeropuerto): ACJ
+
+Aeropuerto: Nantucket Memorial
+Ciudad: ACK
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ACK
+
+Aeropuerto: Ciudad Acuña International Airport
+Ciudad: ACN
+País: Mexico
+Código IATA (País): MX
+Código IATA (Aeropuerto): ACN
+
+Aeropuerto: Sahand
+Ciudad: ACP
+País: Iran
+Código IATA (País): IR
+Código IATA (Aeropuerto): ACP
+
+Aeropuerto: Araracuara
+Ciudad: ACR
+País: Colombia
+Código IATA (País): CO
+Código IATA (Aeropuerto): ACR
+
+Aeropuerto: Achinsk
+Ciudad: ACS
+País: Russia
+Código IATA (País): RU
+Código IATA (Aeropuerto): ACS
+
+Aeropuerto: Municipal
+Ciudad: ACT
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ACT
+
+Aeropuerto: Arcata
+Ciudad: ACV
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ACV
+
+Aeropuerto: Atlantic City International
+Ciudad: AIY
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ACY
+
+Aeropuerto: Zabol Airport
+Ciudad: ACZ
+País: Iran
+Código IATA (País): IR
+Código IATA (Aeropuerto): ACZ
+
+Aeropuerto: Adana
+Ciudad: ADA
+País: Turkey
+Código IATA (País): TR
+Código IATA (Aeropuerto): ADA
+
+Aeropuerto: Adnan Menderes Airport
+Ciudad: IZM
+País: Turkey
+Código IATA (País): TR
+Código IATA (Aeropuerto): ADB
+
+Aeropuerto: Bole International
+Ciudad: ADD
+País: Ethiopia
+Código IATA (País): ET
+Código IATA (Aeropuerto): ADD
+
+Aeropuerto: Aden International Airport
+Ciudad: ADE
+País: Yemen
+Código IATA (País): YE
+Código IATA (Aeropuerto): ADE
+
+Aeropuerto: Adiyaman
+Ciudad: ADF
+País: Turkey
+Código IATA (País): TR
+Código IATA (Aeropuerto): ADF
+
+Aeropuerto: Lenawee County
+Ciudad: ADG
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADG
+
+Aeropuerto: Aldan
+Ciudad: ADH
+País: Russia
+Código IATA (País): RU
+Código IATA (Aeropuerto): ADH
+
+Aeropuerto: Arandis
+Ciudad: ADI
+País: Namibia
+Código IATA (País): NA
+Código IATA (Aeropuerto): ADI
+
+Aeropuerto: Marka International Airport
+Ciudad: AMM
+País: Jordan
+Código IATA (País): JO
+Código IATA (Aeropuerto): ADJ
+
+Aeropuerto: Adak Island Ns
+Ciudad: ADK
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADK
+
+Aeropuerto: Adelaide International Airport
+Ciudad: ADL
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): ADL
+
+Aeropuerto: Ardmore Municipal Airport
+Ciudad: ADM
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADM
+
+Aeropuerto: Andamooka
+Ciudad: ADO
+País: Australia
+Código IATA (País): AU
+Código IATA (Aeropuerto): ADO
+
+Aeropuerto: Kodiak Airport
+Ciudad: ADQ
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADQ
+
+Aeropuerto: Andrews
+Ciudad: ADR
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADR
+
+Aeropuerto: Addison Airport
+Ciudad: DFW
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADS
+
+Aeropuerto: Ada Municipal
+Ciudad: ADT
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): ADT
+
+Aeropuerto: Ardabil
+Ciudad: ADU
+País: Iran
+Código IATA (País): IR
+Código IATA (Aeropuerto): ADU
+
+Aeropuerto: Leuchars
+Ciudad: ADX
+País: United Kingdom
+Código IATA (País): GB
+Código IATA (Aeropuerto): ADX
+
+Aeropuerto: Alldays
+Ciudad: ADY
+País: South Africa
+Código IATA (País): ZA
+Código IATA (Aeropuerto): ADY
+
+Aeropuerto: San Andres Island
+Ciudad: ADZ
+País: Colombia
+Código IATA (País): CO
+Código IATA (Aeropuerto): ADZ
+
+Aeropuerto: Abemama Atoll
+Ciudad: AEA
+País: Kiribati
+Código IATA (País): KI
+Código IATA (Aeropuerto): AEA
+
+Aeropuerto: Aek Godang
+Ciudad: AEG
+País: Indonesia
+Código IATA (País): ID
+Código IATA (Aeropuerto): AEG
+
+Aeropuerto: Albert Lea
+Ciudad: AEL
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AEL
+
+Aeropuerto: Aioun El Atrouss
+Ciudad: AEO
+País: Mauritania
+Código IATA (País): MR
+Código IATA (Aeropuerto): AEO
+
+Aeropuerto: Aeroparque Jorge Newbery
+Ciudad: BUE
+País: Argentina
+Código IATA (País): AR
+Código IATA (Aeropuerto): AEP
+
+Aeropuerto: Sochi/Adler International Airport
+Ciudad: AER
+País: Russia
+Código IATA (País): RU
+Código IATA (Aeropuerto): AER
+
+Aeropuerto: Vigra
+Ciudad: AES
+País: Norway
+Código IATA (País): NO
+Código IATA (Aeropuerto): AES
+
+Aeropuerto: Allakaket
+Ciudad: AET
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AET
+
+Aeropuerto: Abu Musa
+Ciudad: AEU
+País: Iran
+Código IATA (País): IR
+Código IATA (Aeropuerto): AEU
+
+Aeropuerto: Alexandria International
+Ciudad: AEX
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AEX
+
+Aeropuerto: Akureyri
+Ciudad: AEY
+País: Iceland
+Código IATA (País): IS
+Código IATA (Aeropuerto): AEY
+
+Aeropuerto: San Rafael
+Ciudad: AFA
+País: Argentina
+Código IATA (País): AR
+Código IATA (Aeropuerto): AFA
+
+Aeropuerto: Port Alfred
+Ciudad: AFD
+País: South Africa
+Código IATA (País): ZA
+Código IATA (Aeropuerto): AFD
+
+Aeropuerto: USAF Academy Airstrip
+Ciudad: COS
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AFF
+
+Aeropuerto: Amalfi
+Ciudad: AFI
+País: Colombia
+Código IATA (País): CO
+Código IATA (Aeropuerto): AFI
+
+Aeropuerto: Alta Floresta
+Ciudad: AFL
+País: Brazil
+Código IATA (País): BR
+Código IATA (Aeropuerto): AFL
+
+Aeropuerto: Municipal
+Ciudad: AFN
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AFN
+
+Aeropuerto: Municipal
+Ciudad: AFO
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AFO
+
+Aeropuerto: Zarafshan
+Ciudad: AFS
+País: Uzbekistan
+Código IATA (País): UZ
+Código IATA (Aeropuerto): AFS
+
+Aeropuerto: Afutara Aerodrome
+Ciudad: AFT
+País: Solomon Islands
+Código IATA (País): SB
+Código IATA (Aeropuerto): AFT
+
+Aeropuerto: Fort Worth Alliance
+Ciudad: DFW
+País: United States
+Código IATA (País): US
+Código IATA (Aeropuerto): AFW
+
+Aeropuerto: Afyon
+Ciudad: AFY
+País: Turkey
+Código IATA (País): TR
+Código IATA (Aeropuerto): AFY
+

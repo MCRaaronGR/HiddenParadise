@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+
+.Contenedor2 {
+    background-color: #f9f9f9;
+}
+/*Primer Panel*/
+.PrimerPanel3{
+    width: 100%;
+    background-image: url(/img/imgPortada2.jpg);
+    width: 100%;
+    height: 585px;
+    background-size: 100% 585px; /* Escala la imagen para que tenga el ancho del 100% y un alto de 600px */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.PrimerPanel3 h1{
+    font-family: "Flamenco", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7rem;
+    text-align: center;
+}
+
+/*Segundo Panel*/
+.SegundoPanel3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+#Tableroinfo2{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    top: 660px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 1rem 5rem 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+#Tableroinfo2 h1{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-top: 0;
+}
+.Grid-Informacion2{
+    display: grid;
+    grid-template-columns: auto auto 30%;
+    grid-template-rows: auto auto;
+}
+.Grid-Informacion2 div{
+    padding: 1rem;
+    padding-left: 0;
+}
+.Msj2{
+    grid-area: 1/1/2/3;
+    padding-left: 0;
+}
+.Imgs2{
+    border-left: 1px black solid;
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.Imgs2 div img{
+    width: 50%;
+    height: auto;
+}
+.Imgs2 div p{
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#MsjBienvenida2{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: gray;
+    font-size: 1.8rem;
+}
+
+/*Tercer Panel*/
+.TercerPanel3{
+    width: 100%;
+    height: auto;
+    padding: 0% 8% 0% 8%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+.TercerPanel3 div{
+    padding: 1rem;
+}
+.infoCreacion2 h1{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}
+.infoCreacion2 p{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 0rem 4rem 0rem 1.5rem;
+    text-align: justify;
+}
+
+.FormularioPaises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.FormularioPaises h2{
+    text-align: left;
+    font-family: "Flamenco", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+.FormCoun{
+    width: 100%;
+}
+#country-form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-family: "Flamenco", serif;
+    border-radius: 4px;
+}
+#country-form button {
+    padding: 10px 20px;
+    width: 25%;
+    font-family: "Flamenco", serif;
+    font-size: 2.01rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px white solid;
+    transition-duration: 0.2s;
+}
+
+#country-form button:hover {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    transition-duration: 0.2s;
+}
+
+#country-info {
+    grid-area: 2/1/3/3;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+#country-info {
+    font-family: "Flamenco", serif;
+    align-items: center;
+}
+#country-info h2{
+    font-size: 3.5rem;
+}
+#country-info p{
+    font-size: 2rem;
+}
+#country-info img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+#country-destinations{
+    display: grid;
+    grid-area: 3/1/4/3;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.TituloDestinosP{
+    grid-area: 1/1/2/4;
+    text-align: center;
+    padding: 1rem;
+}
+.TituloDestinosP h2{
+    font-size: 4rem;
+    font-family: "Flamenco", serif;
+    font-weight: 600;
+    animation: parpadeo 1.5s infinite;
+}
+@keyframes parpadeo {
+    0% {
+        opacity: 1;  /* Totalmente visible */
+    }
+    50% {
+        opacity: 0;  /* Totalmente invisible */
+    }
+    100% {
+        opacity: 1;  /* Vuelve a ser visible */
+    }
+}
+.TituloDestinosP div {
+    padding: 1rem;
+}
+.DestinosSugeridosA h3{
+    font-family: "Flamenco", serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.DestinosSugeridosA p{
+    font-family: "Flamenco", serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
