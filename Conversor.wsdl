@@ -1,0 +1,59 @@
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:tns="http://example.com/currency-converter"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             targetNamespace="http://example.com/currency-converter">
+  <types>
+    <xsd:schema targetNamespace="http://example.com/currency-converter">
+      <xsd:element name="ConvertCurrencyRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="fromCurrency" type="xsd:string"/>
+            <xsd:element name="toCurrency" type="xsd:string"/>
+            <xsd:element name="amount" type="xsd:float"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConvertCurrencyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="convertedAmount" type="xsd:float"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+
+  <message name="ConvertCurrencyRequest">
+    <part name="parameters" element="tns:ConvertCurrencyRequest"/>
+  </message>
+  <message name="ConvertCurrencyResponse">
+    <part name="parameters" element="tns:ConvertCurrencyResponse"/>
+  </message>
+
+  <portType name="CurrencyConverterPortType">
+    <operation name="ConvertCurrency">
+      <input message="tns:ConvertCurrencyRequest"/>
+      <output message="tns:ConvertCurrencyResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="CurrencyConverterBinding" type="tns:CurrencyConverterPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="ConvertCurrency">
+      <soap:operation soapAction="http://example.com/currency-converter/ConvertCurrency"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="CurrencyConverterService">
+    <port name="CurrencyConverterPort" binding="tns:CurrencyConverterBinding">
+        <soap:address location="http://localhost:3000/conversor"/>
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,63 @@
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:tns="http://www.example.org/Recomendaciones"
+             name="RecomendacionesService"
+             targetNamespace="http://www.example.org/Recomendaciones">
+    
+    <types>
+        <xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Recomendaciones">
+            <xs:element name="GetRecommendationsRequest">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="interests" type="xsd:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetRecommendationsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="recommendations" type="xsd:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+  </types>
+
+  <message name="GetRecommendationsRequest">
+      <part name="interests" element="tns:GetRecommendationsRequest"/>
+  </message>
+  <message name="GetRecommendationsResponse">
+    <part name="recommendations" element="tns:GetRecommendationsResponse"/>
+  </message>
+
+  <portType name="RecomendacionesPortType">
+      <operation name="GetRecommendations">
+          <input message="tns:GetRecommendationsRequest"/>
+          <output message="tns:GetRecommendationsResponse"/>
+      </operation>
+  </portType>
+
+  <binding name="RecomendacionesBinding" type="tns:RecomendacionesPortType">
+    <soap12:binding style="document" transport="http://www.w3.org/2003/05/soap/bindings/HTTP/"/>
+    <operation name="GetRecommendations">
+        <soap12:operation soapAction="urn:GetRecommendations"/>
+        <input>
+            <soap:body use="literal"/>
+        </input>
+        <output>
+            <soap:body use="literal"/>
+        </output>
+    </operation>
+  </binding>
+
+  <service name="RecomendacionesService">
+      <port name="RecomendacionesPort" binding="tns:RecomendacionesBinding">
+          <soap12:address location="http://localhost:3000/soap"/>
+      </port>
+  </service>
+</definitions>
+
+
+
+

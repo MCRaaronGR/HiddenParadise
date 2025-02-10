@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Calcula tu huella de carbono</title>
+            <link rel="stylesheet" href="/css/general.css">
+            <link rel="stylesheet" href="/css/normalize.css">
+            <link rel="stylesheet" href="/css/Navbar.css">
+            <link rel="stylesheet" href="/css/huellaCarbono.css">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="/css/Footer.css">
+        </head>
+        <body class="Contenedor5">
+            <nav class="Encabezado">
+                <div class="BienvenidaP">
+                    <div>
+                        <img src="/img/LogoP.png">
+                    </div>
+                    <div id="Titulo">
+                        <h2> a tu servicio .......</h2>
+                    </div>
+                </div>
+                <div class="InformacionP">
+                    <div>
+                        <a>Conocenos</a>
+                    </div>
+                    <div>
+                        <a>Nuestras Redes</a>
+                    </div>
+                    <div>
+                        <a>Contactanos</a>
+                    </div>                
+                </div>
+                <div class="CuentasP">
+                    <button>Iniciar sesion</button>
+                    <button>Crear una cuenta</button>
+                </div>
+            </nav>
+            <section class="PrimerPanel5">
+                <h1>PORQUE NOS IMPORTA EL MEDIO AMBIENTE</h1>
+            </section>
+            <section class="SegundoPanel5"> 
+                <div id="Tableroinfo3">
+                    <div>
+                        <h1>Cuidando el planeta</h1>
+                        <div class="Grid-Informacion3">
+                            <div class="Msj3">
+                                <p id="MsjBienvenida3">Bienvenido a nuestra herramienta en línea diseñada para ayudarte a calcular las 
+                                    emisiones de dióxido de carbono (CO2) generadas por tus viajes. Al ingresar el punto de origen y 
+                                    destino, y seleccionar el medio de transporte que utilizarás, podrás obtener una estimación precisa
+                                     de las emisiones de CO2 asociadas con tu desplazamiento. Ya sea que viajes en automóvil, autobús, 
+                                     tren o avión, nuestra plataforma te permite tomar decisiones más informadas sobre tus 
+                                     desplazamientos, fomentando la sostenibilidad y contribuyendo al cuidado del medio ambiente.</p>
+                                <div class="GIF">
+                                    <img id="GifContaminacion" src="/img/imgContaminacion.gif">
+                                </div> 
+                            </div>
+                            <div class="Imgs3">
+                                <div id="InfoInformacion">
+                                    <p>Solo hay una tierra</p>
+                                    <img src="/img/imgMedioa1.png">
+                                </div>
+                                <div id="InfoViaje">
+                                    <p>Todos nuestro viajes cuentan</p>
+                                    <img src="/img/imgMedioA2.jpeg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="TercerPanel5">
+                <div class="TituloHC">
+                    <h1>Hablanos de tu viaje (todos los elementos importan)</h1>
+                </div>
+                <div class="introduccionHC">
+                    <p>Es importante conocer como afectamos al medio ambiente, crear conciencia ambiental es uno de los aspectos que la sociedad
+                        debe de tener maás en cuenta, sabemos que quieres disfrutar tu experiencia al maximo y que tu proximo destino te espera,
+                        sin embargo, recuerda que todos estos elementos tienen un precio y que, con la suma de nuestras pequeñas acciones no solo
+                        cuidamos el planeta, si no tambien, a nostros mismos.
+                    </p>
+                </div> 
+                <form class="CalculoHuella">
+                    <div id="IntroC">
+                        <h2>Calculemos tu huella</h2>
+                    </div>                    
+                    <div id="DivOrigen">
+                        <h3>¿De donde vas?</h3>
+                        <label for="origenp">Pais de Origen</label>
+                        <select id="Porigen" name="origenp" required>
+                            <option value="">Selecciona pais de origen</option> 
+                        </select>
+                        <label for="origenc">Ciudad de origen</label>
+                        <select id="Corigen" name="origenc" required>
+                            <option value="">Selecciona la ciudad de origen</option> 
+                        </select>
+                    </div>
+                    <div id="DivDestino">
+                        <h3>¿A donde llegas?</h3>
+                        <label for="destinop">Pais de Destino</label>
+                        <select id="Pdestino" name="destinop" required>
+                            <option value="">Selecciona pais de destino</option> 
+                        </select>
+
+                        <label for="destinoc">Ciudad de destino</label>
+                        <select id="Cdestino" name="destinoc" required>
+                            <option value="">Selecciona la ciudad de destino</option> 
+                        </select>
+
+                        <h3>¿En que vas?</h3>
+                        <div class="MediosT">
+                            <div>
+                                <input id="Mcoche" type="checkbox" name="Mcoche" value="1">
+                                <label for="Mcoche">Coche</label>
+                                
+                            </div>
+                            <div>
+                                <input id="Mtren" type="checkbox" name="Mtren" value="2">
+                                <label for="Mtren">Tren</label>
+                                
+                            </div>            
+                            <div>
+                                <input id="Mavion" type="checkbox" name="Mavion" value="3">
+                                <label id="Mavion">Avión</label>
+                                
+                            </div>
+                            <div>
+                                <input id="Mbarco" type="checkbox" name="Mbarco" value="4">
+                                <label for="Mbarco">Barco</label>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ResultadosHC" id="HCR">
+                        <h3>Aquí tus resultados</h3>
+                    </div>
+                </form>
+                <button id="BtnHuellaCarbono">Calcular</button>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <h1>HiddenParadise</h1>
+                        <p>info@HiddenParadise@gmial.com</p>
+                    </div>
+                    <div class="footer-locations">
+                        <div>
+                            <h3>Ciudad de México (Oficina Central):</h3>
+                            <p>Av. San Pablo Xalpa CP. 02220 </p>
+                            <p>+56 5540329077</p>
+                        </div>
+                        <div>
+                            <h3>Tizayuca Hidalgo</h3>
+                            <p>C. Peñazcal Mz.8 Lt.1 Fracc. San Antonio</p>
+                            <p>+56 5539083885</p>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                        <li><a href="#">Promoción Empresarial</a></li>
+                        <li><a href="#">Touroperadora</a></li>
+                        <li><a href="#">Historia</a></li>
+                        <li><a href="#">Hoteles y Gastronomía</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Encuéntranos en:</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <footer class="DesarrolloE">
+                <p>Desarrollado por: QUANTUMWEBCREATIONS <br> Todos los derechos reservados</p>
+                
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="/js/CalculoDistancia.js"></script>
+            <script src="/js/HuellaCarbono.js"></script>     
+        </body>
+    </html>

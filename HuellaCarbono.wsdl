@@ -1,0 +1,78 @@
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" 
+             xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+             xmlns:tns="http://example.com/huellaCarbono" 
+             name="HuellaCarbonoService" 
+             targetNamespace="http://example.com/huellaCarbono">
+
+    <types>
+        <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/huellaCarbono">
+            <xsd:element name="CalculoRequest">
+                <xsd:complexType>
+                  <xsd:sequence>
+                      <xsd:element name="distancia" type="xsd:double"/>
+                      <xsd:element name="medios" type="tns:MediosTransporte"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+            <xsd:element name="MediosTransporte">
+                <xsd:complexType>
+                  <xsd:sequence>
+                      <xsd:element name="medio" type="xsd:string" maxOccurs="unbounded"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+            <xsd:element name="CalculoResponse">
+                <xsd:complexType>
+                  <xsd:sequence>
+                      <xsd:element name="huellaCarbono" type="xsd:double"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+    </types>
+
+  <!-- Mensajes -->
+  <message name="CalculoRequest">
+    <part name="parameters" element="tns:CalculoRequest"/>
+  </message>
+
+  <message name="CalculoResponse">
+    <part name="parameters" element="tns:CalculoResponse"/>
+  </message>
+
+  <!-- Operación -->
+  <portType name="HuellaCarbonoPortType">
+    <operation name="Calculo">
+      <input message="tns:CalculoRequest"/>
+      <output message="tns:CalculoResponse"/>
+    </operation>
+  </portType>
+
+  <!-- Enlace SOAP -->
+  <binding name="HuellaCarbonoBinding" type="tns:HuellaCarbonoPortType">
+    <soap:binding style="document" transport="http://www.w3.org/2003/05/soap/bindings/HTTP/"/>
+    <operation name="Calculo">
+      <soap:operation soapAction="urn:Calculo"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <!-- Servicio -->
+  <service name="HuellaCarbonoService">
+    <port name="HuellaCarbonoPort" binding="tns:HuellaCarbonoBinding">
+      <soap:address location="http://localhost:3000/huellaC"/>
+    </port>
+  </service>
+
+</definitions>
+
+
+

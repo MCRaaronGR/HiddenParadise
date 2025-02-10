@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Crea tu viaje</title>
+            <link rel="stylesheet" href="/css/general.css">
+            <link rel="stylesheet" href="/css/normalize.css">
+            <link rel="stylesheet" href="/css/Navbar.css">
+            <link rel="stylesheet" href="/css/CreaTuViaje.css">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="/css/Footer.css">  
+        </head>
+        <body class="Contenedor2">
+            <nav class="Encabezado">
+                <div class="BienvenidaP">
+                    <div>
+                        <img src="/img/LogoP.png">
+                    </div>
+                    <div id="Titulo">
+                        <h2> a tu servicio .......</h2>
+                    </div>
+                </div>
+                <div class="InformacionP">
+                    <div>
+                        <a>Conocenos</a>
+                    </div>
+                    <div>
+                        <a>Nuestras Redes</a>
+                    </div>
+                    <div>
+                        <a>Contactanos</a>
+                    </div>                
+                </div>
+                <div class="CuentasP">
+                    <button>Iniciar sesion</button>
+                    <button>Crear una cuenta</button>
+                </div>
+            </nav>
+            <section class="PrimerPanel2">
+                <h1>DESTINOS EXTRAORDINARIOS</h1>
+            </section>
+            <section class="SegundoPanel2">
+                <div id="Tableroinfo">
+                    <div>
+                        <h1>¿Necesitas ayuda con tus viajes?</h1>
+                        <div class="Grid-Informacion">
+                            <div class="Msj">
+                                <p id="MsjBienvenida">¡Bienvenido a nuestra plataforma de planificación de viajes! Estamos encantados de ayudarte a descubrir el destino 
+                                    perfecto para tus próximas aventuras. Ya sea que busques un lugar para relajarte, explorar nuevas culturas o vivir 
+                                    experiencias únicas, nuestra herramienta te ofrece recomendaciones personalizadas basadas en tus gustos y 
+                                    preferencias. ¡Viajar nunca fue tan fácil! Solo ingresa tus intereses y déjanos hacer el resto. <br>
+                                    <br>
+                                    Además, si ya tienes un destino en mente o un presupuesto establecido, tenemos una función pensada para ti. 
+                                    Puedes generar un viaje a medida, ajustando el número de personas, el origen, el destino y la fecha de tu viaje. 
+                                    Nuestra plataforma te ayudará a optimizar cada detalle, asegurándote una experiencia a tu medida y dentro de lo que 
+                                    deseas gastar. ¡Empieza a planificar tu próxima aventura con nosotros y deja que cada viaje sea una experiencia 
+                                    única e inolvidable!</p>
+                            </div>
+                            <div class="Imgs">
+                                <div id="InfoPreferences">
+                                    <p>Destinos segun tus preferencias</p>
+                                    <img src="/img/ImgPreferences.png">
+                                </div>
+                                <div id="InfoPresupuesto">
+                                    <p>Viaje ajustado a tu presupuesto</p>
+                                    <img src="/img/imgPresupuesto.jpg">
+                                </div>
+                            </div>
+                            <div class="Carrusel">
+                                <!-- Flecha de navegación izquierda -->
+                                <button class="carousel-nav" id="prevBtn">&#10094;</button>
+                                
+                                <!-- Contenedor del carrusel -->
+                                <div class="carousel-container">
+                                    <div class="carousel-item">
+                                        <img src="/img/imgDestino1.png" alt="Imagen 1">
+                                        <img src="/img/imgDestino2.jpg" alt="Imagen 2">
+                                        <img src="/img/imgDestino3.jpg" alt="Imagen 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/imgDestino4.jpg" alt="Imagen 4">
+                                        <img src="/img/imgDestino5.jpg" alt="Imagen 5">
+                                        <img src="/img/imgDestino6.jpg" alt="Imagen 6">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/img/imgDestino7.jpeg" alt="Imagen 7">
+                                        <img src="/img/imgDestino8.jpg" alt="Imagen 8">
+                                        <img src="/img/imgDestino9.jpg" alt="Imagen 9">
+                                    </div>
+                                </div>
+                                
+                                <!-- Flecha de navegación derecha -->
+                                <button class="carousel-nav" id="nextBtn">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="TercerPanel2">
+                <div class="infoCreacion">
+                    <h1>Un viaje a tu alcance ...</h1>
+                    <p>En Hidden Paradise generaremos una propuesta personalizada que se ajuste perfectamente a tus necesidades, ofreciéndote 
+                        opciones únicas para que disfrutes de una experiencia memorable, sin comprometer tu bolsillo. 
+                        ¡Comienza ahora y prepárate para tu aventura!</p>
+                </div>
+                <div class="FormularioCreacion"> 
+                    <form id="tripForm">
+                        <div id="TitleFormCreate">
+                            <h1>Crea tu viaje</h1>
+                        </div>
+                        <div id="DineroI">
+                            <label for="budget">Presupuesto</label>
+                            <input type="number" id="budget" name="budget" required>
+                            <label for="currency">Moneda</label>
+                            <select id="currency" name="currency" required>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="GBP">GBP</option>
+                            </select>
+                        </div>
+                        <div id="Passegers">
+                            <label for="adults">Adultos</label>
+                            <input type="number" id="adults" name="adults" min="1" required>
+                            <label for="children">Niños</label>
+                            <input type="number" id="children" name="children" min="0" required>
+                        </div>
+                        <div id="PlacesV">
+                            <label for="origin">Origen</label>
+                            <select id="origin" name="origin" required>
+                                <option value="">Selecciona pais de origen</option> <!-- Valor por defecto -->
+                            </select>
+                            <label for="destination">Destino</label>
+                            <select id="destination" name="destination" required>
+                                <option value="">Selecciona destino</option> <!-- Valor por defecto -->
+                            </select>
+                        </div>
+                        <div id="DateV">
+                            <label for="departureDate">Fecha</label>
+                            <input type="date" id="departureDate" name="departureDate" required>
+                        </div>
+                        <div class="BtnCreate">
+                            <button type="submit">¡Crea tu viaje!</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="CuartoPanel2">
+                <div class="infoRecomendaciones">
+                    <h1>¿No sabes a donde ir?</h1>
+                    <p>Podemos ayudarte a elegir el destino de tu proxima aventura.
+                        Nos aseguramos de que la selección esté basada en tus intereses, preferencias y deseos, para que cada detalle 
+                        se adapte a lo que realmente te apasiona. De esta manera, no solo encontraras un lugar para visitar, sino un 
+                        destino que te permita sumergirte completamente en una experiencia única, llena de momentos memorables. Con 
+                        nosotros, podrás disfrutar de cada paso de tu viaje al máximo, haciendo de tu próxima aventura algo 
+                        verdaderamente inolvidable.
+                    </p>
+                </div>
+                <div class="preferences">
+                    <div class="available">
+                        <h2>Selecciona lo que te gusta ...</h2>
+                        <ul id="available-list">
+                            <li data-interest="naturaleza">Naturaleza</li>
+                            <li data-interest="cultura">Cultura</li>
+                            <li data-interest="cultura">Tradiciones</li>
+                            <li data-interest="aventura">Aventura</li>
+                            <li data-interest="romance">Romance</li>
+                            <li data-interest="luces">Luces</li>
+                            <li data-interest="carnavales">Carnavales</li>
+                            <li data-interest="festivales">Festivales</li>
+                            <li data-interest="ruinas">Ruinas</li>
+                            <li data-interest="rural">Rural</li>
+                            <li data-interest="camping">Camping</li>
+                            <li data-interest="caminable">Caminable</li>
+                            <li data-interest="fiestas">Fiestas</li>
+                            <li data-interest="bares">Bares</li>
+                            <li data-interest="skate">Skate</li>
+                            <li data-interest="playa">Playa</li>
+                            <li data-interest="religion">Religión</li>
+                            <li data-interest="zonaa">Zona arqueologica</li>
+                            <li data-interest="ecoturismo">Ecoturismo</li>
+                            <li data-interest="gastronomia">Gastronomia</li>
+                            <li data-interest="historia">Historia</li>
+                            <li data-interest="familia">Familia</li>
+                            <li data-interest="romantico">Romantico</li>
+                            <li data-interest="lujo">Lujo</li>
+                        </ul>
+                    </div>
+                    <div class="selected">
+                        <h2>Tu proxima aventura suena a ...</h2>
+                        <ul id="selected-list"></ul>
+                    </div>
+                </div>
+                <div id="BtnRecomendaciones">
+                    <button id="get-recommendations">Obtener Recomendaciones</button>
+                </div>
+                <div id="recommendationsPanel">
+                    
+                </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <h1>HiddenParadise</h1>
+                        <p>info@HiddenParadise@gmial.com</p>
+                    </div>
+                    <div class="footer-locations">
+                        <div>
+                            <h3>Ciudad de México (Oficina Central):</h3>
+                            <p>Av. San Pablo Xalpa CP. 02220 </p>
+                            <p>+56 5540329077</p>
+                        </div>
+                        <div>
+                            <h3>Tizayuca Hidalgo</h3>
+                            <p>C. Peñazcal Mz.8 Lt.1 Fracc. San Antonio</p>
+                            <p>+56 5539083885</p>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                        <li><a href="#">Promoción Empresarial</a></li>
+                        <li><a href="#">Touroperadora</a></li>
+                        <li><a href="#">Historia</a></li>
+                        <li><a href="#">Hoteles y Gastronomía</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Encuéntranos en:</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <footer class="DesarrolloE">
+                <p>Desarrollado por: QUANTUMWEBCREATIONS <br> Todos los derechos reservados</p>
+                
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="/js/CreaTuViaje.js"></script>
+            <script src="/js/CarruselCreaTuViaje.js"></script>
+            <script src="/js/RecomCreaTuViaje.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Centro de Comentarios</title>
+            <link rel="stylesheet" href="/css/general.css">
+            <link rel="stylesheet" href="/css/normalize.css">
+            <link rel="stylesheet" href="/css/Navbar.css">
+            <link rel="stylesheet" href="/css/CentroComentarios.css">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="/css/Footer.css">
+        </head>
+        <body class="Contenedor4">
+            <nav class="Encabezado">
+                <div class="BienvenidaP">
+                    <div>
+                        <img src="/img/LogoP.png">
+                    </div>
+                    <div id="Titulo">
+                        <h2> a tu servicio .......</h2>
+                    </div>
+                </div>
+                <div class="InformacionP">
+                    <div>
+                        <a>Conocenos</a>
+                    </div>
+                    <div>
+                        <a>Nuestras Redes</a>
+                    </div>
+                    <div>
+                        <a>Contactanos</a>
+                    </div>                
+                </div>
+                <div class="CuentasP">
+                    <button id="CerraSesion">Cerrar Sesion</button>
+                </div>
+            </nav>
+            <section class="PrimerPanel4">
+                <div class="container" id="container">
+                    <div class="form-container sign-up">
+                        <form id="FormRegister">
+                            <h1>Crea una cuenta</h1>
+                            <span>Unete a nuestra comunidad de viajeros</span>
+                            <input type="text" id="registerUsername" placeholder="Nombre de usuario" required>
+                            <input type="number" id="registerAge" placeholder="Edad" required>
+                            <input type="password" id="registerPassword" placeholder="Contraseña" required>
+                            <button type="submit">¡Quiero unirme!</button>
+                        </form>
+                    </div>
+                    <div class="form-container sign-in">
+                        <form id="FormInicioSesion">
+                            <h1>Inicia Sesión</h1>
+                            <span>Ten acceso a opiniones de diversos lugares</span>
+                            <input type="text" id="loginUsername" placeholder="Nombre de usuario" required>
+                            <input type="password" id="loginPassword" placeholder="Contraseña" required>
+                            <button type="submit">¡Vamos!</button>
+                        </form>
+                    </div>
+                    <div class="toggle-container">
+                        <div class="toggle">
+                            <div class="toggle-panel toggle-left" id="MsjSigIn">
+                                <h1>¡Bienvenido de vuelta!</h1>
+                                <p>Inicia sesión para agregar y ver distintas experiencias de los destinos que te interesan.</p>
+                                <button class="hidden" id="login">¡Vamos!</button>
+                            </div>
+                            <div class="toggle-panel toggle-right" id="MsjNewUser">
+                                <h1>¡Hola! ¿Nuevo usuario?</h1>
+                                <p>Si aun no tienes una cuenta, registrate para tener accesso a opiniones de diferentes destinos
+                                    además de poder agregar tus propias experiencias en distintos lugares.
+                                </p>
+                                <button class="hidden" id="register">¡Quiero unirme!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section class="SegundoPanel4">
+                <h1>Los comentarios mas relevantes ultimamente</h1>
+                <p>Aqui quiero un carrusel que presente los 10 comentarios con mas "me gusta" guardados</p>
+                <p>Los comentarios deben tener la siguiente estructura:</p>
+                <ol>
+                    <li>Titulo del comentario</li>
+                    <li>Lugar del comentario</li>
+                    <li>Comentario</li>
+                    <li>Foto Adjunta (opcional)</li>
+                    <li>Botones de "me gusta" y "me disgusta"</li>
+                </ol>
+                <p>Todo hecho con REST</p>
+            </section>
+            <section class="TercerPanel5">
+                <h2>Este panel no debe ser visible hasta que se tenga una sesión inciada</h2>
+                <p>Aqui se debe tener una muestra de comentarios y la opcion de buscar comentarios por "lugar", osea
+                    de que lugar son los comentarios (paris, mexico, Rusia, etc.)
+                </p>
+                <div>
+                    <button>Agregar comentario</button>
+                    <form id="comentarioForm" action="/escribirComentario" method="POST">
+                        <label for="Titulo">Título</label>
+                        <input type="text" id="Titulo" name="titulo" required>
+                    
+                        <label for="Lugar">Lugar</label>
+                        <input type="text" id="Lugar" name="lugar" required>
+                    
+                        <label for="Contenido">Contenido</label>
+                        <textarea id="Contenido" name="contenido" rows="4" required></textarea>
+                    
+                        <button type="submit">Subir</button>
+                    </form>
+                    
+                </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <h1>HiddenParadise</h1>
+                        <p>info@HiddenParadise@gmial.com</p>
+                    </div>
+                    <div class="footer-locations">
+                        <div>
+                            <h3>Ciudad de México (Oficina Central):</h3>
+                            <p>Av. San Pablo Xalpa CP. 02220 </p>
+                            <p>+56 5540329077</p>
+                        </div>
+                        <div>
+                            <h3>Tizayuca Hidalgo</h3>
+                            <p>C. Peñazcal Mz.8 Lt.1 Fracc. San Antonio</p>
+                            <p>+56 5539083885</p>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                        <li><a href="#">Promoción Empresarial</a></li>
+                        <li><a href="#">Touroperadora</a></li>
+                        <li><a href="#">Historia</a></li>
+                        <li><a href="#">Hoteles y Gastronomía</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Encuéntranos en:</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <footer class="DesarrolloE">
+                <p>Desarrollado por: QUANTUMWEBCREATIONS <br> Todos los derechos reservados</p>
+                
+            </footer>
+            <script src="/js/inicioSesion.js"></script>
+            <script src="/js/cerrarSesion.js"></script>
+            <script src="/js/CentroComentarios.js"></script>
+        </body>
+    </html>

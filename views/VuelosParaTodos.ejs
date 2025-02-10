@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelo Para Todos</title>
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/Navbar.css">
+    <link rel="stylesheet" href="/css/CreaTuViaje.css">
+    <link rel="stylesheet" href="/css/Footer.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="Contenedor2">
+    <nav class="Encabezado">
+        <div class="BienvenidaP">
+            <div>
+                <img src="/img/LogoP.png" alt="Logo">
+            </div>
+            <div id="Titulo">
+                <h2>Vuelo Para Todos</h2>
+            </div>
+        </div>
+        <div class="InformacionP">
+            <div><a href="#" style="text-decoration: none;">Conócenos</a></div>
+            <div><a href="#" style="text-decoration: none;">Nuestras Redes</a></div>
+            <div><a href="#" style="text-decoration: none;">Contáctanos</a></div>
+        </div>
+        <div class="CuentasP">
+            <button>Iniciar sesión</button>
+            <button>Crear una cuenta</button>
+        </div>
+    </nav>
+
+    <section class="PrimerPanel2">
+        <h1>DESCUBRE LOS MEJORES VUELOS</h1>
+    </section>
+
+    <section class="SegundoPanel2">
+        <div id="Tableroinfo">
+            <div>
+                <h1>Planifica tus vuelos con facilidad</h1>
+                <div class="Grid-Informacion">
+                    <div class="Msj">
+                        <p id="MsjBienvenida">Encuentra vuelos al mejor precio y organiza tu itinerario sin complicaciones. Nuestro sistema te permite realizar conversiones de moneda y buscar vuelos que se ajusten a tus necesidades. ¡Empieza a planear tu próxima aventura hoy mismo!</p>
+                    </div>
+                    <div class="Imgs">
+                        <div id="InfoPresupuesto">
+                            <p>Vuelos ajustados a tu presupuesto</p>
+                            <img src="/img/imgPresupuesto.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="FormularioAmadeus">
+        <h1>Busca tu vuelo</h1>
+        <form id="amadeusForm">
+            <div id="PlacesV">
+                <label for="origin">Origen</label>
+                <select id="origin" name="origin" required>
+                    <option value="">Selecciona país de origen</option>
+                </select>
+                <label for="destination">Destino</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Selecciona destino</option>
+                </select>
+            </div>
+            <div>
+                <label for="departureDate">Fecha de salida</label>
+                <input type="date" id="departureDate" name="departureDate" required>
+            </div>
+            <div>
+                <label for="returnDate">Fecha de regreso</label>
+                <input type="date" id="returnDate" name="returnDate">
+            </div>
+            <div>
+                <label for="adults">Adultos</label>
+                <input type="number" id="adults" name="adults" min="1" required>
+            </div>
+            <div>
+                <label for="children">Niños</label>
+                <input type="number" id="children" name="children" min="0">
+            </div>
+            <div>
+                <label for="travelClass">Clase</label>
+                <select id="travelClass" name="travelClass" required>
+                    <option value="ECONOMY">Economy</option>
+                    <option value="PREMIUM_ECONOMY">Premium Economy</option>
+                    <option value="BUSINESS">Business</option>
+                    <option value="FIRST">First Class</option>
+                </select>
+            </div>
+            <button type="submit">Buscar Vuelo</button>
+        </form>
+    </section>
+
+    <section class="ConversorMoneda">
+        <h1>Conversor de Moneda</h1>
+        <form id="currencyConverterForm">
+            <div>
+                <label for="amount">Cantidad</label>
+                <input type="number" id="amount" name="amount" step="0.01" required>
+            </div>
+            <div>
+                <label for="fromCurrency">De</label>
+                <select id="fromCurrency" name="fromCurrency" required>
+                    <option value="USD">USD</option>
+                    <option value="MXN">MXN</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </div>
+            <div>
+                <label for="toCurrency">A</label>
+                <select id="toCurrency" name="toCurrency" required>
+                    <option value="USD">USD</option>
+                    <option value="MXN">MXN</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </div>
+            <button type="submit">Convertir</button>
+        </form>
+        <div id="conversionResult"></div>
+    </section>
+
+    <section id="resultsSection">
+        <h2>Resultados de la búsqueda</h2>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Origen</th>
+                    <th>Destino</th>
+                    <th>Fecha de salida</th>
+                    <th>Fecha de regreso</th>
+                    <th>Precio</th>
+                    <th>Aerolínea</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se llenarán los resultados -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1>Vuelo Para Todos</h1>
+                <p>info@vueloparatodos.com</p>
+            </div>
+            <div class="footer-locations">
+                <div>
+                    <h3>Ciudad de México:</h3>
+                    <p>Av. Principal CP. 02220</p>
+                    <p>+56 5540329077</p>
+                </div>
+                <div>
+                    <h3>Tizayuca Hidalgo:</h3>
+                    <p>C. Peñazcal Mz.8 Lt.1 Fracc. San Antonio</p>
+                    <p>+56 5539083885</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Promoción Empresarial</a></li>
+                    <li><a href="#">Touroperadora</a></li>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Hoteles y Gastronomía</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Encuéntranos en:</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="DesarrolloE">
+        <p>Desarrollado por: QUANTUMWEBCREATIONS <br> Todos los derechos reservados</p>
+    </footer>
+
+    <script src="/js/VuelosParaTodos.js"></script>
+</body>
+</html>
